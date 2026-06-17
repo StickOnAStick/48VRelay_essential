@@ -3242,7 +3242,7 @@
 		(at 207.01 88.9 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3440,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3598,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3677,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.54 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3730,7 +3730,7 @@
 		(at 207.01 38.1 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4003,7 +4003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 222.25 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4320,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 222.25 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4400,7 +4400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 222.25 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4481,7 +4481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4624,7 +4624,7 @@
 		(at 207.01 139.7 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4899,7 +4899,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 129.54 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5146,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 129.54 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5276,10 +5276,6 @@
 		)
 		(instances
 			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9"
-					(reference "#PWR06")
-					(unit 1)
-				)
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "#PWR06")
 					(unit 1)
@@ -5320,7 +5316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.85 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5458,7 +5454,7 @@
 		(at 207.01 114.3 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -5552,7 +5548,7 @@
 		(at 207.01 63.5 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -5714,10 +5710,6 @@
 		)
 		(instances
 			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9"
-					(reference "0685T5000-01")
-					(unit 1)
-				)
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "0685T5000-01")
 					(unit 1)
@@ -5756,7 +5748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5835,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6109,10 +6101,6 @@
 		)
 		(instances
 			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "#PWR01")
 					(unit 1)
@@ -6308,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6389,7 +6377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6553,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6806,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7065,10 +7053,6 @@
 		)
 		(instances
 			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9"
-					(reference "U1")
-					(unit 1)
-				)
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "U2")
 					(unit 1)

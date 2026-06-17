@@ -660,7 +660,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": ""
+      "workbook_filename": "48VERelay.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -674,7 +674,7 @@
         "uuid": "2d740e7a-a48e-41b8-b74e-ca0ab277f7d9"
       }
     ],
-    "used_designators": "L1-2,R1-28,0685T5000\\-2-5,#PWR1-61,D1-5,Y1,TVS1,F1,K1-14,U1-9,C1-35,J1-14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
