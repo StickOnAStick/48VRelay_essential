@@ -2702,7 +2702,7 @@
 		)
 		(uuid "ff71f530-2a55-4b7d-b8ec-1fd20b7b2cfd")
 	)
-	(label "NO"
+	(label "NO_4"
 		(at 214.63 105.41 0)
 		(effects
 			(font
@@ -2712,7 +2712,7 @@
 		)
 		(uuid "019682bd-afc9-47b5-9a92-fdf627000a48")
 	)
-	(label "RELAY_5"
+	(label "MCU_RELAY_5"
 		(at 74.93 76.2 0)
 		(effects
 			(font
@@ -2722,7 +2722,7 @@
 		)
 		(uuid "02619f72-45d0-41e6-abe7-cef295d18ed7")
 	)
-	(label "NO"
+	(label "NO_3"
 		(at 214.63 80.01 0)
 		(effects
 			(font
@@ -2732,7 +2732,7 @@
 		)
 		(uuid "05794e9e-1ace-4463-b88b-8839214b4a2d")
 	)
-	(label "NC"
+	(label "NC_5"
 		(at 238.76 142.24 0)
 		(effects
 			(font
@@ -2742,7 +2742,7 @@
 		)
 		(uuid "080018e5-52af-49e8-8a14-227b4b1a93b3")
 	)
-	(label "NO"
+	(label "NO_3"
 		(at 238.76 86.36 0)
 		(effects
 			(font
@@ -2752,7 +2752,7 @@
 		)
 		(uuid "0ab69faf-1be1-4cb8-bc35-ab3a45a91d5e")
 	)
-	(label "RELAY_4"
+	(label "MCU_RELAY_4"
 		(at 67.31 73.66 0)
 		(effects
 			(font
@@ -2762,7 +2762,7 @@
 		)
 		(uuid "0b310c9b-4168-438c-9744-c0555382102c")
 	)
-	(label "NC"
+	(label "NC_3"
 		(at 209.55 80.01 0)
 		(effects
 			(font
@@ -2772,7 +2772,7 @@
 		)
 		(uuid "0e785910-6a70-4686-9ca0-a38f2633f0f5")
 	)
-	(label "NO"
+	(label "NO_1"
 		(at 238.76 35.56 0)
 		(effects
 			(font
@@ -2782,7 +2782,7 @@
 		)
 		(uuid "14afb322-2f3b-48f6-abf6-f51b0439b6fe")
 	)
-	(label "COM"
+	(label "COM_5"
 		(at 238.76 139.7 0)
 		(effects
 			(font
@@ -2792,7 +2792,7 @@
 		)
 		(uuid "159b840e-e327-48d1-ade3-9b887c1adf92")
 	)
-	(label "NC"
+	(label "NC_1"
 		(at 238.76 40.64 0)
 		(effects
 			(font
@@ -2802,7 +2802,7 @@
 		)
 		(uuid "15b4d330-d060-481e-b162-8b3a47bf2980")
 	)
-	(label "NC"
+	(label "NC_2"
 		(at 209.55 54.61 0)
 		(effects
 			(font
@@ -2822,7 +2822,7 @@
 		)
 		(uuid "167299bc-0b82-4e24-8f73-ebd7a560ae8a")
 	)
-	(label "COM"
+	(label "COM_4"
 		(at 227.33 121.92 0)
 		(effects
 			(font
@@ -2832,7 +2832,7 @@
 		)
 		(uuid "16c63d55-4bce-4f07-9de1-1d62cf4ceaac")
 	)
-	(label "COM"
+	(label "COM_3"
 		(at 227.33 96.52 0)
 		(effects
 			(font
@@ -2842,7 +2842,7 @@
 		)
 		(uuid "18ee9d9f-eadc-4aad-a1e9-dac171e4504c")
 	)
-	(label "RELAY_5"
+	(label "MCU_RELAY_3"
 		(at 59.69 71.12 0)
 		(effects
 			(font
@@ -2852,7 +2852,7 @@
 		)
 		(uuid "248fbeba-a5cc-44da-b855-810c3b37b757")
 	)
-	(label "NO"
+	(label "NO_4"
 		(at 238.76 111.76 0)
 		(effects
 			(font
@@ -2862,7 +2862,7 @@
 		)
 		(uuid "26d73d9e-71d0-46d0-9eb1-d1557e2cbd13")
 	)
-	(label "NC"
+	(label "NC_1"
 		(at 209.55 27.94 0)
 		(effects
 			(font
@@ -2882,7 +2882,7 @@
 		)
 		(uuid "3db31a41-025e-414b-a566-ebe3daa551c0")
 	)
-	(label "COM"
+	(label "COM_5"
 		(at 227.33 147.32 0)
 		(effects
 			(font
@@ -2902,7 +2902,7 @@
 		)
 		(uuid "4536c773-6fce-499e-8266-277977e35c71")
 	)
-	(label "RELAY_5"
+	(label "MCU_RELAY_1"
 		(at 44.45 66.04 0)
 		(effects
 			(font
@@ -2922,7 +2922,7 @@
 		)
 		(uuid "65e4a1b4-44ad-4d65-8142-990a5d39688c")
 	)
-	(label "NC"
+	(label "NC_2"
 		(at 238.76 66.04 0)
 		(effects
 			(font
@@ -2932,7 +2932,7 @@
 		)
 		(uuid "6cb914ae-80ff-4037-a859-1ee9f90148ff")
 	)
-	(label "NO"
+	(label "NO_2"
 		(at 238.76 60.96 0)
 		(effects
 			(font
@@ -2952,7 +2952,7 @@
 		)
 		(uuid "789044d0-2c13-4dba-acd5-978eac0b917f")
 	)
-	(label "NO"
+	(label "NO_5"
 		(at 238.76 137.16 0)
 		(effects
 			(font
@@ -2962,7 +2962,7 @@
 		)
 		(uuid "8bd0416e-b1d2-4b04-a45e-16599579d6f6")
 	)
-	(label "COM"
+	(label "COM_2"
 		(at 238.76 63.5 0)
 		(effects
 			(font
@@ -2972,7 +2972,7 @@
 		)
 		(uuid "8f5f8bd2-b344-45d9-aff1-a35b0129f670")
 	)
-	(label "RELAY_5"
+	(label "MCU_RELAY_2"
 		(at 52.07 68.58 0)
 		(effects
 			(font
@@ -2982,7 +2982,7 @@
 		)
 		(uuid "909251b5-cfd6-4e3e-b663-1a820de8b4d1")
 	)
-	(label "NC"
+	(label "NC_5"
 		(at 209.55 129.54 0)
 		(effects
 			(font
@@ -2992,7 +2992,7 @@
 		)
 		(uuid "91d8b02e-019e-47bb-a2f9-ba4eaf25a039")
 	)
-	(label "COM"
+	(label "COM_1"
 		(at 227.33 45.72 0)
 		(effects
 			(font
@@ -3002,7 +3002,7 @@
 		)
 		(uuid "95a9d994-eb83-476e-8c90-f77e846cb82e")
 	)
-	(label "COM"
+	(label "COM_2"
 		(at 227.33 71.12 0)
 		(effects
 			(font
@@ -3012,7 +3012,7 @@
 		)
 		(uuid "9bfdad05-9874-4ad6-afcc-29e553de7312")
 	)
-	(label "NC"
+	(label "NC_4"
 		(at 238.76 116.84 0)
 		(effects
 			(font
@@ -3032,7 +3032,7 @@
 		)
 		(uuid "9f230243-2003-45d8-8d80-e2a958e0650c")
 	)
-	(label "COM"
+	(label "COM_4"
 		(at 238.76 114.3 0)
 		(effects
 			(font
@@ -3042,7 +3042,7 @@
 		)
 		(uuid "a08fa4e8-d9fb-4dd6-80e9-ae6bafc99e4a")
 	)
-	(label "NC"
+	(label "NC_4"
 		(at 209.55 105.41 0)
 		(effects
 			(font
@@ -3052,7 +3052,7 @@
 		)
 		(uuid "acb6e0c6-5efb-4f85-812f-d950a7e5bf15")
 	)
-	(label "NO"
+	(label "NO_1"
 		(at 214.63 27.94 0)
 		(effects
 			(font
@@ -3062,7 +3062,7 @@
 		)
 		(uuid "ae6c5db0-313e-42e1-ab25-148af540835e")
 	)
-	(label "NC"
+	(label "NC_3"
 		(at 238.76 91.44 0)
 		(effects
 			(font
@@ -3082,7 +3082,7 @@
 		)
 		(uuid "b14940bc-2a07-4841-912a-b5a8485ff404")
 	)
-	(label "NO"
+	(label "NO_5"
 		(at 214.63 129.54 0)
 		(effects
 			(font
@@ -3092,7 +3092,7 @@
 		)
 		(uuid "bb2c2313-07a5-47ff-8747-38192fcd638e")
 	)
-	(label "COM"
+	(label "COM_3"
 		(at 238.76 88.9 0)
 		(effects
 			(font
@@ -3102,7 +3102,7 @@
 		)
 		(uuid "cd9bfe4b-4eeb-4fc0-83f8-1176d490d605")
 	)
-	(label "COM"
+	(label "COM_1"
 		(at 238.76 38.1 0)
 		(effects
 			(font
@@ -3122,7 +3122,7 @@
 		)
 		(uuid "d3d17858-8d39-4f6f-89f9-32d89ef7508b")
 	)
-	(label "NO"
+	(label "NO_2"
 		(at 214.63 54.61 0)
 		(effects
 			(font
@@ -3186,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 248.92 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4073,7 +4073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 78.74 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85364eb9-62be-4ed4-ab97-965c42185262")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 113.284 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4613,7 +4613,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae755df0-9d08-4838-8c79-86312e09c52d")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 127.254 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +5199,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5305,7 +5305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 71.12 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 248.92 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 222.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6285,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 48.768 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 63.5 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6459,7 +6459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 248.92 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6712,7 +6712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 248.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6963,7 +6963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm"
 			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +7094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 248.92 63.5 0)
 			(hide yes)
 			(show_name no)
