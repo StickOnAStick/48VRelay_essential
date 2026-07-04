@@ -584,251 +584,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2026-06-15_04-40-12:TLV1117LV33DCYR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U8"
-				(at 25.4 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV1117LV33DCYR"
-				(at 25.4 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "YDC4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1117lv"
-				(at 25.654 -10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Library" "C:\\Users\\Nick\\Downloads\\KiCad\\LDO\\TLV1117LV33DCYR\\TLV1117LV33_PSPICE_TRANS\\TLV1117LV33_SIMPLE.lib"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Name" "TLV1117LV33_SIMPLE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TLV1117LV33DCYR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "YDC4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TLV1117LV33DCYR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 43.18 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -7.62) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TLV1117LV33DCYR_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 50.8 -2.54 180)
-					(length 7.62)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CL21A106KOQNNNE_1"
 			(body_styles demorgan)
 			(pin_names
@@ -1960,7 +1715,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TLV1117LV33DCYR_1"
+		(symbol "TLV1117LV33DCYR_2"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1989,7 +1744,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YDC4"
+			(property "Footprint" "Library:DCY0004A_M"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2079,7 +1834,7 @@
 					)
 				)
 			)
-			(symbol "TLV1117LV33DCYR_1_0_1"
+			(symbol "TLV1117LV33DCYR_2_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -7.62)
@@ -2129,11 +1884,11 @@
 					)
 				)
 			)
-			(symbol "TLV1117LV33DCYR_1_1_1"
-				(pin input line
-					(at 0 0 0)
+			(symbol "TLV1117LV33DCYR_2_1_1"
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 7.62)
-					(name "IN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2148,10 +1903,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
+				(pin output line
+					(at 50.8 0 180)
 					(length 7.62)
-					(name "GND"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2166,10 +1921,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 50.8 -2.54 180)
+				(pin input line
+					(at 0 0 0)
 					(length 7.62)
-					(name "TAB"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2185,9 +1940,9 @@
 					)
 				)
 				(pin output line
-					(at 50.8 0 180)
+					(at 50.8 -2.54 180)
 					(length 7.62)
-					(name "OUT"
+					(name "TAB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3290,7 +3045,7 @@
 	)
 	(text "3v3 Mains"
 		(exclude_from_sim no)
-		(at 81.534 130.302 0)
+		(at 86.614 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3423,6 +3178,12 @@
 		(uuid "707889d2-c744-4969-9821-6cd3456fb27c")
 	)
 	(junction
+		(at 111.76 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78745b5e-f147-4bd3-ac28-74032338d284")
+	)
+	(junction
 		(at 52.07 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3433,12 +3194,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8248a30b-2cf8-43be-9297-190a59c0801d")
-	)
-	(junction
-		(at 111.76 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8265072b-7630-4d8d-a637-7f062551d660")
 	)
 	(junction
 		(at 110.49 81.28)
@@ -3457,12 +3212,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d93bf73-5696-4602-9c47-b42d49918129")
-	)
-	(junction
-		(at 111.76 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f4f598e-64e5-4890-ac5a-ac8e7cd93b36")
 	)
 	(junction
 		(at 96.52 40.64)
@@ -3499,6 +3248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b94a4ae0-2073-4745-80e6-79bfcad768a2")
+	)
+	(junction
+		(at 111.76 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb32388-4cdf-4aad-bf94-6b9c5b419327")
 	)
 	(junction
 		(at 57.15 170.18)
@@ -4590,6 +4345,128 @@
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TLV1117LV33DCYR_2")
+		(lib_id "2026-06-15_04-40-12:TLV1117LV33DCYR")
+		(at 60.96 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17eb18ad-717b-417f-aa96-ed86e3a0b1f2")
+		(property "Reference" "U9"
+			(at 86.36 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV1117LV33DCYR"
+			(at 86.36 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:TLV1117-33IDCYR"
+			(at 60.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1117lv"
+			(at 86.614 155.702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 60.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\Nick\\Downloads\\KiCad\\LDO\\TLV1117LV33DCYR\\TLV1117LV33_PSPICE_TRANS\\TLV1117LV33_SIMPLE.lib"
+			(at 60.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "TLV1117LV33_SIMPLE"
+			(at 60.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3e70ecfc-a009-4eb2-86e4-316b08b4c8ac")
+		)
+		(pin "1"
+			(uuid "350dfe81-4bf1-4a73-a4b1-f6488c6bfdd3")
+		)
+		(pin "4"
+			(uuid "70dde4e8-03d2-4bde-9588-48ab06f60a05")
+		)
+		(pin "2"
+			(uuid "afecde6a-7f24-44a6-b497-de462003de45")
+		)
+		(instances
+			(project "48VERelay"
+				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5911,6 +5788,128 @@
 		)
 	)
 	(symbol
+		(lib_name "TLV1117LV33DCYR_2")
+		(lib_id "2026-06-15_04-40-12:TLV1117LV33DCYR")
+		(at 60.96 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76e12b6d-a3f4-42af-b713-20611f33d6b8")
+		(property "Reference" "U10"
+			(at 86.36 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV1117LV33DCYR"
+			(at 86.36 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:TLV1117-33IDCYR"
+			(at 60.96 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1117lv"
+			(at 86.614 179.832 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 60.96 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\Nick\\Downloads\\KiCad\\LDO\\TLV1117LV33DCYR\\TLV1117LV33_PSPICE_TRANS\\TLV1117LV33_SIMPLE.lib"
+			(at 60.96 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "TLV1117LV33_SIMPLE"
+			(at 60.96 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "15955e11-0808-4679-8a5d-e3bf4259d1fe")
+		)
+		(pin "1"
+			(uuid "0a07f94d-08e8-4be0-aa68-0c65ae1930b0")
+		)
+		(pin "4"
+			(uuid "3e6c1be0-ac70-4dc7-88e8-c1075866d06f")
+		)
+		(pin "2"
+			(uuid "91b05fc3-73f5-4203-bb79-82a01a585201")
+		)
+		(instances
+			(project "48VERelay"
+				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 111.76 0)
 		(unit 1)
@@ -6137,127 +6136,6 @@
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-06-15_04-40-12:TLV1117LV33DCYR")
-		(at 60.96 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b71737c-093b-4904-b738-33479a6aab27")
-		(property "Reference" "U8"
-			(at 86.36 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV1117LV33DCYR"
-			(at 86.36 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Library:DCY0004A_M"
-			(at 60.96 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1117lv"
-			(at 86.614 179.832 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 60.96 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "C:\\Users\\Nick\\Downloads\\KiCad\\LDO\\TLV1117LV33DCYR\\TLV1117LV33_PSPICE_TRANS\\TLV1117LV33_SIMPLE.lib"
-			(at 60.96 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "TLV1117LV33_SIMPLE"
-			(at 60.96 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "39bb583c-073f-435f-a2f3-35a5665d209d")
-		)
-		(pin "1"
-			(uuid "07e14f22-52bc-4938-b994-42bc684844d3")
-		)
-		(pin "2"
-			(uuid "bde39969-d35d-4cdb-99c7-e15e869798e6")
-		)
-		(pin "3"
-			(uuid "6da84257-842c-4054-aaec-e408035c630f")
-		)
-		(instances
-			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6500,128 +6378,6 @@
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TLV1117LV33DCYR_1")
-		(lib_id "2026-06-15_04-40-12:TLV1117LV33DCYR")
-		(at 60.96 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d213aa8-555a-470a-aa74-561e2c429bfe")
-		(property "Reference" "U6"
-			(at 86.36 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV1117LV33DCYR"
-			(at 86.36 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Library:DCY0004A_M"
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv1117lv"
-			(at 86.614 155.702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "C:\\Users\\Nick\\Downloads\\KiCad\\LDO\\TLV1117LV33DCYR\\TLV1117LV33_PSPICE_TRANS\\TLV1117LV33_SIMPLE.lib"
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "TLV1117LV33_SIMPLE"
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8c3f3c46-4dab-4641-9223-b673af6fe02e")
-		)
-		(pin "2"
-			(uuid "4a2ac4fa-f81c-4f9f-a84d-a61f9a02f466")
-		)
-		(pin "1"
-			(uuid "cf2f5fa4-acfd-448b-b092-7ee009e80cc0")
-		)
-		(pin "3"
-			(uuid "526713d2-e433-472a-bcd3-81ca2fd89778")
-		)
-		(instances
-			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/d97737bf-97d5-4dce-8e29-3da18c767258"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6888,8 +6644,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 102.87 41.91 0)
+		(property "Value" "100uF - Electrolytic"
+			(at 102.87 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6899,7 +6655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 106.68 40.64 0)
 			(hide yes)
 			(show_name no)
