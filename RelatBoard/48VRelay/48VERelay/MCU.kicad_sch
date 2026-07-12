@@ -4972,6 +4972,16 @@
 		)
 		(uuid "08dc6f83-93fa-481a-b934-84550af8c79d")
 	)
+	(label "PHY_R_RXP"
+		(at 210.82 106.68 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14103094-9011-4350-817a-71f8c5a11891")
+	)
 	(label "LINK_LED"
 		(at 212.09 129.54 0)
 		(effects
@@ -5012,6 +5022,16 @@
 		)
 		(uuid "2977f0ff-57fe-4161-bafe-4379318d2eb9")
 	)
+	(label "PHY_RC_TXP"
+		(at 224.79 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38f40494-8c2a-4ea5-8423-667cc10de4ab")
+	)
 	(label "RX_N"
 		(at 251.46 104.14 0)
 		(effects
@@ -5041,6 +5061,26 @@
 			(justify left bottom)
 		)
 		(uuid "4e15d1c7-35d2-453c-81c6-96ee109bda5e")
+	)
+	(label "PHY_R_TXP"
+		(at 210.82 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f9b2352-a622-45ba-9a94-14daa4e22298")
+	)
+	(label "PHY_RC_RXN"
+		(at 223.52 104.14 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51be1919-0cbd-43e8-8a0a-1b75ce0065ee")
 	)
 	(label "Ether_CS"
 		(at 161.29 96.52 0)
@@ -5122,6 +5162,16 @@
 		)
 		(uuid "82db98d5-1776-4645-a12a-b76e8fe35253")
 	)
+	(label "PHY_R_RXN"
+		(at 208.28 104.14 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "838a33f4-2aab-4dbf-a7f3-b5973882e164")
+	)
 	(label "PHY_VDD"
 		(at 167.64 83.82 0)
 		(effects
@@ -5131,6 +5181,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c0540bc-903b-42f8-9e25-35828d3c7a08")
+	)
+	(label "PHY_R_TXN"
+		(at 208.28 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f999589-c024-4a57-946c-476779300a8d")
 	)
 	(label "JTAG_TMS"
 		(at 115.57 71.12 0)
@@ -5222,6 +5282,16 @@
 		)
 		(uuid "cbaf4c82-849a-4a27-ab7a-26dbc40ab6ad")
 	)
+	(label "PHY_RC_RXP"
+		(at 224.79 106.68 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd0aee86-6b2c-485d-a336-9da207e3d9b7")
+	)
 	(label "Ether_MOSI"
 		(at 161.29 104.14 0)
 		(effects
@@ -5271,6 +5341,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1f6c268-5f22-459b-9bc0-fda2203f30c9")
+	)
+	(label "PHY_RC_TXN"
+		(at 222.2454 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e957eeaf-4c9b-4e77-b62b-4cfc29561f64")
 	)
 	(label "RX_P"
 		(at 251.46 106.68 0)
@@ -5896,7 +5976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 238.76 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8456,7 +8536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
