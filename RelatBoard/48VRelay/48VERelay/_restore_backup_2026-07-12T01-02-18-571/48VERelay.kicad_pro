@@ -608,6 +608,10 @@
       {
         "netclass": "3V3A",
         "pattern": "+3V3A"
+      },
+      {
+        "netclass": "3V3_Class",
+        "pattern": "+3V3 Eth"
       }
     ]
   },
