@@ -2712,16 +2712,6 @@
 		)
 		(uuid "019682bd-afc9-47b5-9a92-fdf627000a48")
 	)
-	(label "MCU_RELAY_5"
-		(at 74.93 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02619f72-45d0-41e6-abe7-cef295d18ed7")
-	)
 	(label "NO_3"
 		(at 214.63 80.01 0)
 		(effects
@@ -2752,16 +2742,6 @@
 		)
 		(uuid "0ab69faf-1be1-4cb8-bc35-ab3a45a91d5e")
 	)
-	(label "MCU_RELAY_4"
-		(at 67.31 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b310c9b-4168-438c-9744-c0555382102c")
-	)
 	(label "NC_3"
 		(at 209.55 80.01 0)
 		(effects
@@ -2771,16 +2751,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e785910-6a70-4686-9ca0-a38f2633f0f5")
-	)
-	(label "NO_1"
-		(at 238.76 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14afb322-2f3b-48f6-abf6-f51b0439b6fe")
 	)
 	(label "COM_5"
 		(at 238.76 139.7 0)
@@ -2842,16 +2812,6 @@
 		)
 		(uuid "18ee9d9f-eadc-4aad-a1e9-dac171e4504c")
 	)
-	(label "MCU_RELAY_3"
-		(at 59.69 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "248fbeba-a5cc-44da-b855-810c3b37b757")
-	)
 	(label "NO_4"
 		(at 238.76 111.76 0)
 		(effects
@@ -2902,15 +2862,15 @@
 		)
 		(uuid "4536c773-6fce-499e-8266-277977e35c71")
 	)
-	(label "MCU_RELAY_1"
-		(at 44.45 66.04 0)
+	(label "NO_1"
+		(at 214.63 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5b287a68-98d9-495b-939b-ec531338dce7")
+		(uuid "575baa7c-0f26-4b0d-bb71-73c47b98641b")
 	)
 	(label "Relay_5"
 		(at 118.11 76.2 0)
@@ -2972,16 +2932,6 @@
 		)
 		(uuid "8f5f8bd2-b344-45d9-aff1-a35b0129f670")
 	)
-	(label "MCU_RELAY_2"
-		(at 52.07 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "909251b5-cfd6-4e3e-b663-1a820de8b4d1")
-	)
 	(label "NC_5"
 		(at 209.55 129.54 0)
 		(effects
@@ -3011,6 +2961,16 @@
 			(justify left bottom)
 		)
 		(uuid "9bfdad05-9874-4ad6-afcc-29e553de7312")
+	)
+	(label "NO_1"
+		(at 238.76 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c8fe712-ba28-4406-81b9-607b7cf55efa")
 	)
 	(label "NC_4"
 		(at 238.76 116.84 0)
@@ -3051,16 +3011,6 @@
 			(justify left bottom)
 		)
 		(uuid "acb6e0c6-5efb-4f85-812f-d950a7e5bf15")
-	)
-	(label "NO_1"
-		(at 214.63 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae6c5db0-313e-42e1-ab25-148af540835e")
 	)
 	(label "NC_3"
 		(at 238.76 91.44 0)
@@ -3152,6 +3102,126 @@
 		)
 		(uuid "f22aa708-4895-48d3-aa84-1bc993ae3b47")
 	)
+	(global_label "MCU_RELAY_4"
+		(shape bidirectional)
+		(at 67.31 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "078ef94b-320d-4485-bccf-a6dfe84a69d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 90.5774 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_RELAY_3"
+		(shape bidirectional)
+		(at 59.69 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f419c8e-b7bd-4a8c-9548-c2f359fcad30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 88.0374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_RELAY_2"
+		(shape bidirectional)
+		(at 52.07 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44b27b40-341c-47b8-b1a0-ec5dfea1cae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 85.4974 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_RELAY_1"
+		(shape bidirectional)
+		(at 44.45 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69f88854-0b37-4866-954c-c906c683b6ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 82.9574 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_RELAY_5"
+		(shape bidirectional)
+		(at 74.93 76.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "718a5115-bd5d-480e-ad66-190a58e959df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 93.1174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 248.92 114.3 0)
@@ -3186,7 +3256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 248.92 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3598,7 +3668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4003,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 222.25 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4320,7 +4390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 222.25 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4400,7 +4470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 222.25 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4470,7 +4540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 56.388 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 248.92 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 222.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6459,7 +6529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 248.92 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6712,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 248.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +7164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 248.92 63.5 0)
 			(hide yes)
 			(show_name no)
