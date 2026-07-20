@@ -4239,26 +4239,6 @@
 		)
 		(uuid "ffd829b6-1625-42a8-bb55-11fe30f2681a")
 	)
-	(label "ETH_PWR"
-		(at 125.73 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afeb7bde-085a-4c71-8671-38caf351628f")
-	)
-	(label "MCU_PWR"
-		(at 125.73 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd776a5f-3460-4fea-9901-4ee21cf3d06d")
-	)
 	(label "VIN_12V"
 		(at 58.42 24.13 0)
 		(effects
