@@ -516,7 +516,7 @@
         "clearance": 0.254,
         "name": "12V_Class",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.016,
         "tuning_profile": "",
@@ -527,7 +527,7 @@
         "clearance": 0.2032,
         "name": "3V3A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "tuning_profile": "",
@@ -538,7 +538,7 @@
         "clearance": 0.2032,
         "name": "3V3_Class",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "tuning_profile": "",
@@ -549,7 +549,7 @@
         "clearance": 0.762,
         "name": "48V_Contact",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.524,
         "tuning_profile": "",
@@ -560,7 +560,7 @@
         "clearance": 0.254,
         "name": "5V_Class",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -571,7 +571,7 @@
         "clearance": 0.5,
         "name": "Contacts",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.032,
         "tuning_profile": "",
@@ -579,13 +579,26 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.2032,
-        "name": "ETH_TRX",
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.225806,
+        "name": "ETH_RX",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "tuning_profile": "",
+        "track_width": 0.225806,
+        "tuning_profile": "ETH_TRX",
+        "via_diameter": 0.0,
+        "via_drill": 0.0
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.225806,
+        "name": "ETH_TX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.225806,
+        "tuning_profile": "ETH_TRX",
         "via_diameter": 0.6096,
         "via_drill": 0.3048
       }
@@ -846,6 +859,33 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 0,
+            "diff_pair_gap": 203200,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 225806
+          }
+        ],
+        "profile_name": "ETH_TRX",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [
+          {
+            "delay": 0,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
+          }
+        ],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
