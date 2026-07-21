@@ -3648,7 +3648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dc70a87-1ce3-4f94-bd6b-24a29d69a26c")
-		(property "Reference" "0685T5000-4"
+		(property "Reference" "F4"
 			(at 222.25 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3658,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "0685T5000-01"
 			(at 222.25 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +3710,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "0685T5000-4")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cfde3d4-ed7c-4f70-94f3-0246e09171e7")
-		(property "Reference" "0685T5000-3"
+		(property "Reference" "F3"
 			(at 222.25 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,7 +4063,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "0685T5000-01"
 			(at 222.25 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +4115,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "0685T5000-3")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72d198f6-d05a-43c3-9cbb-b76c24a7c6ee")
-		(property "Reference" "0685T5000-2"
+		(property "Reference" "F2"
 			(at 222.25 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "0685T5000"
 			(at 222.25 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4432,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "0685T5000-2")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -4450,7 +4450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b4efe1b-97fd-41f7-bd70-7022778a2f74")
-		(property "Reference" "0685T5000-5"
+		(property "Reference" "F5"
 			(at 222.25 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4460,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "0685T5000"
 			(at 222.25 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +4512,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "0685T5000-5")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cce0bdaf-7521-4d9c-b435-61679f1b092f")
-		(property "Reference" "0685T5000-01"
+		(property "Reference" "F1"
 			(at 222.25 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,7 +5729,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "0685T5000"
 			(at 222.25 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +5781,7 @@
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "0685T5000-01")
+					(reference "F1")
 					(unit 1)
 				)
 			)

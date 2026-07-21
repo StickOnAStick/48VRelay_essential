@@ -4,7 +4,10 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "+3V3 Eth",
+      "+3V3A"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -98,12 +101,14 @@
     "col_widths": [
       156,
       141,
-      113,
-      92,
       103,
-      115,
+      71,
       103,
-      98,
+      103,
+      103,
+      74,
+      103,
+      103,
       103,
       103
     ],

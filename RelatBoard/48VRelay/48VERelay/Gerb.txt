@@ -1,0 +1,15 @@
+Info: X scale constrained.
+Info: Y scale constrained.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-In1_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-In2_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Paste.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Paste.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Silkscreen.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Silkscreen.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Mask.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Mask.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-job.gbrjob'.
+Info: Done.
