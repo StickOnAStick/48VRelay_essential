@@ -1,0 +1,26 @@
+CONTROLLED IMPEDANCE REQUIREMENTS
+
+Board:
+- 4 layers
+- Finished thickness: 1.6 mm
+- Outer copper: 1 oz
+- Inner copper: 0.5 oz
+- Use manufacturer-approved controlled-impedance stackup
+
+Ethernet MDI pairs:
+- Nets: TX_P / TX_N
+- Nets: RX_P / RX_N
+- Routing layer: L1 / Top Copper
+- Reference plane: L2 / continuous GND
+- Target differential impedance: 100 ohms
+- Tolerance: +/-10%
+
+Designed geometry:
+- Trace width: 8.89mil
+- Pair spacing, edge-to-edge: 8mil
+- Copper-to-nearby-copper clearance: 8mil
+
+The manufacturer may adjust trace width and/or spacing as required
+to achieve 100-ohm differential impedance, but must notify the
+customer before making changes that violate clearances or footprint
+breakouts.

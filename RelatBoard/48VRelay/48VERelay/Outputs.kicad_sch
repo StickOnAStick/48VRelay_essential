@@ -1972,6 +1972,12 @@
 		(color 0 0 0 0)
 		(uuid "d2cc91e0-1712-4740-94b6-e52d60612be5")
 	)
+	(junction
+		(at 144.78 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff1aa64-3a3a-4590-b85e-d0b6da3c37f6")
+	)
 	(wire
 		(pts
 			(xy 105.41 71.12) (xy 144.78 71.12)
@@ -3668,7 +3674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3796,6 +3802,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 128.27 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b1ee6e6-03b5-4bbf-be5a-b5f909167957")
+		(property "Reference" "#PWR011"
+			(at 128.27 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 128.27 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 128.27 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5081b970-fabb-46db-9008-77ec674c4fe3")
+		)
+		(instances
+			(project "48VERelay"
+				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:G2RL-1-E")
 		(at 207.01 38.1 0)
 		(unit 1)
@@ -3888,8 +3972,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 90.17 270)
+		(lib_id "power:+12V")
+		(at 130.81 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3897,9 +3981,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5345d0a5-b493-45de-8ae5-97b7e60e0424")
-		(property "Reference" "#PWR014"
-			(at 107.95 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "5898e575-6b6f-4c00-873c-fe0c3c1956ae")
+		(property "Reference" "#PWR015"
+			(at 130.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,8 +3994,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 114.3 92.202 90)
+		(property "Value" "+12V"
+			(at 130.81 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3920,7 +4005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 90.17 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3931,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 90.17 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,85 +4026,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dec3c0da-2924-4722-98e0-2f9abd90bc75")
-		)
-		(instances
-			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54ca2f1b-6131-42a4-985b-be3cdc4ec86a")
-		(property "Reference" "#PWR011"
-			(at 123.19 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 50.038 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,12 +4038,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "96280ed3-ff05-40c5-b88c-159a1f43cf28")
+			(uuid "80c16370-31a9-4547-bcb3-84449294e4e5")
 		)
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4073,7 +4081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 222.25 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 222.25 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4470,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 222.25 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4601,7 +4609,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 115.57 85.09 90)
+		(at 115.57 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4611,7 +4619,7 @@
 		(dnp no)
 		(uuid "85364eb9-62be-4ed4-ab97-965c42185262")
 		(property "Reference" "D5"
-			(at 113.284 85.598 0)
+			(at 117.856 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4621,7 +4629,7 @@
 			)
 		)
 		(property "Value" "LED VO-PT2012SEAC"
-			(at 118.364 83.566 0)
+			(at 112.776 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4630,7 +4638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4784,8 +4792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 146.05 57.15 90)
+		(lib_id "power:+12V")
+		(at 144.78 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4793,9 +4801,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8c9887f2-f063-40ab-aecb-fe22f2b37b26")
+		(fields_autoplaced yes)
+		(uuid "89419b42-3d77-486a-8111-7699f6220439")
 		(property "Reference" "#PWR013"
-			(at 152.4 57.15 0)
+			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4805,8 +4814,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 55.118 90)
+		(property "Value" "+12V"
+			(at 144.78 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4816,7 +4825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 57.15 0)
+			(at 144.78 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 57.15 0)
+			(at 144.78 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4837,8 +4846,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 144.78 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,12 +4858,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2e24d26-13c9-48b5-93bb-3e1f5e4e131e")
+			(uuid "3595e198-d6a2-4020-bd99-33aa21ec280c")
 		)
 		(instances
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 116.84 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a97ab00-2ca2-432d-86db-29a13af4e108")
+		(property "Reference" "#PWR014"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 116.84 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 116.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43106a9d-c20b-476f-88d6-a31cb775a690")
+		)
+		(instances
+			(project "48VERelay"
+				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5019,7 +5106,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 129.54 59.69 270)
+		(at 129.54 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5029,7 +5116,7 @@
 		(dnp no)
 		(uuid "98d44497-6819-4fd0-b104-0d24e7830d74")
 		(property "Reference" "D2"
-			(at 131.826 59.182 0)
+			(at 127.254 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5039,7 +5126,7 @@
 			)
 		)
 		(property "Value" "LED VO-PT2012SEAC"
-			(at 126.746 61.214 0)
+			(at 132.334 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5048,7 +5135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 129.54 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5187,7 +5274,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 129.54 82.55 90)
+		(at 129.54 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5197,7 +5284,7 @@
 		(dnp no)
 		(uuid "ae755df0-9d08-4838-8c79-86312e09c52d")
 		(property "Reference" "D4"
-			(at 127.254 83.058 0)
+			(at 131.826 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5207,7 +5294,7 @@
 			)
 		)
 		(property "Value" "LED VO-PT2012SEAC"
-			(at 132.334 81.026 0)
+			(at 126.746 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5216,7 +5303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 129.54 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5739,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 222.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5946,83 +6033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db922c07-c272-4d58-923f-44db77d3744e")
-		(property "Reference" "#PWR015"
-			(at 121.92 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 89.662 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "327dc7d9-b215-43f3-9c10-11cf13ccd13b")
-		)
-		(instances
-			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 201.93 106.68 0)
 		(unit 1)
@@ -6173,83 +6183,6 @@
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc87ce07-20f0-4c45-b011-f54512c2f169")
-		(property "Reference" "#PWR012"
-			(at 137.16 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 52.578 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e211c606-9486-4aeb-b9c0-ee3929373fe7")
-		)
-		(instances
-			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6582,7 +6515,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 144.78 62.23 270)
+		(at 144.78 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6592,7 +6525,7 @@
 		(dnp no)
 		(uuid "e8ae51e7-8f4d-4bbb-b8e8-9b12d5bad285")
 		(property "Reference" "D3"
-			(at 147.066 61.722 0)
+			(at 142.494 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6602,7 +6535,7 @@
 			)
 		)
 		(property "Value" "LED VO-PT2012SEAC"
-			(at 141.986 63.754 0)
+			(at 147.574 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6611,7 +6544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6835,7 +6768,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 115.57 57.15 270)
+		(at 115.57 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6845,7 +6778,7 @@
 		(dnp no)
 		(uuid "fa59f3cb-4fde-4318-abed-52c47ffb765a")
 		(property "Reference" "D1"
-			(at 117.856 56.642 0)
+			(at 113.284 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6855,7 +6788,7 @@
 			)
 		)
 		(property "Value" "LED VO-PT2012SEAC"
-			(at 112.776 58.674 0)
+			(at 118.364 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6864,7 +6797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7210,6 +7143,84 @@
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 114.3 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffecd8a5-633e-4d39-a2bd-e81299ef01f5")
+		(property "Reference" "#PWR012"
+			(at 114.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 114.3 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 114.3 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff3b8021-dbed-4840-a392-b65a935604a2")
+		)
+		(instances
+			(project "48VERelay"
+				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/9acca724-bbf8-479c-b765-a30537109626"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

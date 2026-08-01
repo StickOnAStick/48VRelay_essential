@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-07-18T23:13:23-07:00"
+    "CreationDate": "2026-07-31T00:23:01-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -19,8 +19,7 @@
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6062,
-    "Finish": "None",
-    "ImpedanceControlled": true
+    "Finish": "None"
   },
   "DesignRules": [
     {
@@ -93,8 +92,43 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "48VERelay-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "48VERelay-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "48VERelay-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "48VERelay-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "48VERelay-User_1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "48VERelay-User_2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "48VERelay-User_3.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "48VERelay-User_4.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
@@ -124,8 +158,6 @@
       "Color": "R109G116B75",
       "Thickness": 0.2104,
       "Material": "7628, RC 49%, 8.6 mil ",
-      "DielectricConstant": "4.5",
-      "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
@@ -139,8 +171,6 @@
       "Color": "R109G116B75",
       "Thickness": 1.065,
       "Material": "1.1mm H/HOZ with copper ",
-      "DielectricConstant": "4.5",
-      "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
@@ -154,8 +184,6 @@
       "Color": "R109G116B75",
       "Thickness": 0.2104,
       "Material": "7628, RC 49%, 8.6 mil ",
-      "DielectricConstant": "4.5",
-      "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
