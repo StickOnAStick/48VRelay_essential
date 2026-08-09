@@ -1,0 +1,1 @@
+Update symbol C9 from 'Device:C_Small' to 'Device:C_Small': OK

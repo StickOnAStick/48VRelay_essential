@@ -1,1 +1,23 @@
-Update symbol C9 from 'Device:C_Small' to 'Device:C_Small': OK
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-In1_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-In2_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Cu.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Paste.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Paste.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Silkscreen.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Silkscreen.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Mask.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Mask.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-User_Drawings.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-Edge_Cuts.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-Margin.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Courtyard.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Courtyard.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-F_Fab.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-B_Fab.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-User_1.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-User_2.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-User_3.gbr'.
+Plotted to '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-User_4.gbr'.
+Created Gerber job file '/Users/ndimidik/Documents/RelayBoard/RelatBoard/48VRelay/48VERelay/48VERelay-job.gbrjob'.
+Info: Done.
