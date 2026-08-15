@@ -8749,7 +8749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 93.98 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8897,7 +8897,7 @@
 		(dnp no)
 		(uuid "6220af9d-77a3-4ba2-bfd0-f68241515c05")
 		(property "Reference" "Y2"
-			(at 161.29 126.746 0)
+			(at 157.988 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8916,7 +8916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:CRYSTAL_ABM3C_ABR-M"
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3C-4Pin_5.0x3.2mm"
 			(at 156.21 134.62 0)
 			(hide yes)
 			(show_name no)

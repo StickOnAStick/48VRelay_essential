@@ -2147,6 +2147,425 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TC2050"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC2050"
+				(at 1.27 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tag-Connect’s 10-pins connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Debug plug-of-nails"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TC2050*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TC2050_1_1"
+				(rectangle
+					(start -2.54 10.16)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.762 -8.382)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 8.382)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.302 -8.382)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2278,309 +2697,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TC2030_1"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TC2030"
-				(at 1.27 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-				(at -2.286 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
-				(at -2.54 -11.176 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Tag-Connect’s 6-pins connector"
-				(at 0.508 -11.176 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Debug plug-of-nails"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*TC2030*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TC2030_1_1_1"
-				(rectangle
-					(start -2.54 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -0.762 -5.842)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 5.842)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.302 -5.842)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "VTREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2872,6 +2988,40 @@
 		(color 0 0 0 0)
 		(uuid "11773709-62c4-4372-8f86-3342a18ffa41")
 	)
+	(no_connect
+		(at 72.39 134.62)
+		(uuid "187e3c21-7099-4daa-b807-1c5b26f2a0c3")
+	)
+	(wire
+		(pts
+			(xy 72.39 132.08) (xy 78.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d3d6cf-0171-4cda-8c97-85b720b9f429")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 59.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ef2de7-e118-47a4-8794-76358e3a16c5")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 59.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e8c7c6-2ca8-4eb3-beea-f3117baf60f7")
+	)
 	(wire
 		(pts
 			(xy 209.55 45.72) (xy 209.55 40.64)
@@ -2904,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 127) (xy 78.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fc752e-7aad-441f-a84c-e8c788038952")
+	)
+	(wire
+		(pts
 			(xy 165.1 55.88) (xy 173.99 55.88)
 		)
 		(stroke
@@ -2911,16 +3071,6 @@
 			(type default)
 		)
 		(uuid "42a0fb94-7718-4211-b03e-1b5bc7846e89")
-	)
-	(wire
-		(pts
-			(xy 54.61 97.79) (xy 59.69 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "447a6ab9-e333-4cb2-99e7-ccd54dec243b")
 	)
 	(wire
 		(pts
@@ -2964,6 +3114,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 132.08) (xy 59.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766bb535-f018-43d8-bc4d-1fdaf3e61836")
+	)
+	(wire
+		(pts
 			(xy 237.49 63.5) (xy 237.49 62.23)
 		)
 		(stroke
@@ -2974,13 +3134,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 59.69 102.87)
+			(xy 72.39 124.46) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b2c7dbc-f91b-40e3-8302-b5f40b4f4070")
+		(uuid "7f7306bd-a4b2-40d9-b431-08f82625dd7f")
 	)
 	(wire
 		(pts
@@ -3014,13 +3174,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 100.33) (xy 59.69 100.33)
+			(xy 54.61 134.62) (xy 59.69 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dad24e4-f262-4734-b094-02778d06f22d")
+		(uuid "8d0295f1-e2af-41bb-827f-37a24295e0c9")
 	)
 	(wire
 		(pts
@@ -3041,16 +3201,6 @@
 			(type default)
 		)
 		(uuid "9028b0d9-812d-419c-bdd6-f9b52a90af4e")
-	)
-	(wire
-		(pts
-			(xy 72.39 102.87) (xy 80.01 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b4091d-0bfb-471b-b40a-2bbc1167f519")
 	)
 	(wire
 		(pts
@@ -3104,23 +3254,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 100.33) (xy 80.01 100.33)
+			(xy 54.61 127) (xy 59.69 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb98a048-b0a2-4298-9c45-8ca271fa5be2")
+		(uuid "dd03acd4-f0f4-49c0-a918-27b05f2b3d82")
 	)
 	(wire
 		(pts
-			(xy 72.39 97.79) (xy 80.01 97.79)
+			(xy 72.39 129.54) (xy 78.74 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6e2da6a-c2cd-468c-803b-1c69479ce8ae")
+		(uuid "deacd2f4-7d2a-44c9-bd31-5097b27121df")
 	)
 	(wire
 		(pts
@@ -3142,19 +3292,19 @@
 		)
 		(uuid "f4c71577-772f-4d46-aaba-c7c00f685309")
 	)
-	(global_label "JTAG_TMS"
+	(global_label "JTAG_VREF"
 		(shape input)
-		(at 80.01 97.79 0)
+		(at 54.61 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1cee1b55-f77c-4f3b-8358-8eaf552fa973")
+		(uuid "1302b07f-d5d2-4257-b8de-2684e6f97cac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8851 97.79 0)
+			(at 41.7672 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,13 +3312,37 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "JTAG_TDI"
+	(global_label "GND"
 		(shape input)
-		(at 80.01 102.87 0)
+		(at 54.61 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b83a24d-d54b-47cf-bf9c-61bc0d6e28dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.7543 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "JTAG_TCK"
+		(shape input)
+		(at 78.74 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3176,9 +3350,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3070aba2-e78e-4dce-87c4-1ad7808be836")
+		(uuid "36554645-4d89-4a5e-b195-357c0ef221a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.099 102.87 0)
+			(at 90.4942 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,7 +3366,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 54.61 100.33 180)
+		(at 54.61 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3200,9 +3374,9 @@
 			)
 			(justify right)
 		)
-		(uuid "40bb9de6-19ec-4ec9-ab78-6c518aa40b6e")
+		(uuid "3ce2058f-64df-4c02-a7d6-a1934cd26b67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7543 100.33 0)
+			(at 47.7543 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,9 +3388,9 @@
 			)
 		)
 	)
-	(global_label "JTAG_VREF"
+	(global_label "GND"
 		(shape input)
-		(at 54.61 97.79 180)
+		(at 54.61 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3224,9 +3398,9 @@
 			)
 			(justify right)
 		)
-		(uuid "66c21a0e-9a12-42db-845e-fc80c1241903")
+		(uuid "44645ad9-3b8d-401c-a24b-bb08869f4c78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 97.79 0)
+			(at 47.7543 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,6 +3409,78 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "JTAG_TDI"
+		(shape input)
+		(at 78.74 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49aac9bc-315b-4991-bc0c-76619cc52981")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.829 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 54.61 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d655ea1-565b-45ab-a45a-1ad4226d5796")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.7543 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 78.74 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "599b0622-ba10-43a5-8894-4f25367ac38e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.6151 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3251,6 +3497,30 @@
 		(uuid "6ac41c93-daff-4883-b657-68d3cdc71361")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.6274 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 78.74 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7318c0fd-4132-405a-95c5-422f7f2eb2ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.5547 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,30 +3628,6 @@
 			)
 		)
 	)
-	(global_label "JTAG_TCK"
-		(shape input)
-		(at 80.01 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba6829be-9112-4086-bf63-fafc84da12ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7642 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TX_P"
 		(shape bidirectional)
 		(at 165.1 63.5 180)
@@ -3478,30 +3724,6 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDO"
-		(shape input)
-		(at 54.61 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de820a11-957a-424f-9ad2-1fe1c92df588")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7953 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "LINK_LED"
 		(shape bidirectional)
 		(at 224.79 60.96 0)
@@ -3523,99 +3745,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TC2030_1")
-		(lib_id "Connector:TC2030")
-		(at 64.77 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2020f660-429f-4096-a69d-5353b9269d49")
-		(property "Reference" "J5"
-			(at 66.04 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TC2030"
-			(at 66.04 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 62.484 112.014 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
-			(at 62.23 111.506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Tag-Connect’s 6-pins connector"
-			(at 65.278 111.506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e8f4438-d941-4112-99a1-24f4d7027c66")
-		)
-		(pin "6"
-			(uuid "c12080d2-d6a5-45e2-b746-4c8b4e82acfb")
-		)
-		(pin "5"
-			(uuid "549a596b-c820-41bd-b1db-4c0e077dc916")
-		)
-		(pin "2"
-			(uuid "fd664f03-2958-41ef-bc7a-e981d39b05f8")
-		)
-		(pin "4"
-			(uuid "15a13891-329a-4743-af04-e45412c7e0e4")
-		)
-		(pin "3"
-			(uuid "c9db506a-36d5-4325-8651-f4309bbf7780")
-		)
-		(instances
-			(project "48VERelay"
-				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/4e215b4b-7e65-4a7a-bed3-9a0c470bfd52"
-					(reference "J5")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4100,6 +4229,110 @@
 			(project "48VERelay"
 				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/4e215b4b-7e65-4a7a-bed3-9a0c470bfd52"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TC2050")
+		(at 64.77 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2dea94-4ec8-462a-8076-88a3e82bc467")
+		(property "Reference" "J4"
+			(at 66.04 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2050"
+			(at 66.04 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
+			(at 66.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+			(at 66.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tag-Connect’s 10-pins connector"
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cc69733-cc97-4b54-bfd8-3b57a9725ec8")
+		)
+		(pin "2"
+			(uuid "85ec063c-a61f-4d9b-9e61-673c575d265c")
+		)
+		(pin "3"
+			(uuid "c05a49f8-d8d1-4adc-ad64-443a476f4ac3")
+		)
+		(pin "4"
+			(uuid "8670d325-cc87-4fd3-876f-a61a23d13139")
+		)
+		(pin "5"
+			(uuid "4523d164-aee0-466f-aa25-def3a1a3e7f5")
+		)
+		(pin "6"
+			(uuid "bb3904ae-940f-4a96-afd2-0f91290517c7")
+		)
+		(pin "7"
+			(uuid "a2cd06b7-2d8c-4646-b19a-ce80c290829d")
+		)
+		(pin "8"
+			(uuid "8b36b7fa-2e01-4e24-ad66-341e9c7c9833")
+		)
+		(pin "9"
+			(uuid "731ca405-8dd3-4505-aaf1-8a785bd317c9")
+		)
+		(pin "10"
+			(uuid "71244e09-3256-4aa6-b1da-c0cc7a0a4166")
+		)
+		(instances
+			(project "48VERelay"
+				(path "/2d740e7a-a48e-41b8-b74e-ca0ab277f7d9/4e215b4b-7e65-4a7a-bed3-9a0c470bfd52"
+					(reference "J4")
 					(unit 1)
 				)
 			)
