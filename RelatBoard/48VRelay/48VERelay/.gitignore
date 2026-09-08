@@ -1,0 +1,26 @@
+# macOS Finder metadata
+.DS_Store
+
+# KiCad local state and editor lock files
+*.kicad_prl
+*.lck
+~*.lck
+
+# KiCad automatic restore copies. Keep any CSV exports within them.
+_restore_backup_*/**
+!_restore_backup_*/
+!_restore_backup_*/**/
+!_restore_backup_*/**/*.csv
+
+# Generated fabrication and placement exports
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+
+# Temporary archives and workbooks
+Archive*.zip
+*.wbk
+
+# Build output
+target/
