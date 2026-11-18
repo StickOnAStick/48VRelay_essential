@@ -569,9 +569,7 @@
         "via_drill": 0.4064
       },
       {
-        "clearance": 0.762,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1191,
+        "clearance": 0.2032,
         "name": "ETH_TRX",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -611,10 +609,6 @@
       {
         "netclass": "3V3A",
         "pattern": "+3V3A"
-      },
-      {
-        "netclass": "3V3_Class",
-        "pattern": "3V3 MCU"
       }
     ]
   },
@@ -797,7 +791,7 @@
         "uuid": "2d740e7a-a48e-41b8-b74e-ca0ab277f7d9"
       }
     ],
-    "used_designators": "U9-10,C38,#PWR67",
+    "used_designators": "U9-10",
     "variants": []
   },
   "sheets": [
